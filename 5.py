@@ -7,22 +7,6 @@ load_dotenv()
 data = get_data(day=5, year=2022)
 data = data.splitlines()
 
-# parsing
-
-# test_data = [
-#     "        [D]        ",
-#     "[N]     [C]        ",
-#     "[Z]     [M]     [P]",
-#     "",
-#     "",
-#     "move 1 from 2 to 1",
-#     "move 3 from 1 to 3",
-#     "move 2 from 2 to 1",
-#     "move 1 from 1 to 2",
-# ]
-
-# data = test_data # test purposes
-
 starting_position = []
 instructions = []
 
