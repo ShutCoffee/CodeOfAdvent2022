@@ -1,6 +1,5 @@
 from aocd import get_data
 from dotenv import load_dotenv
-import numpy as np
 
 load_dotenv()
 
